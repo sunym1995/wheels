@@ -12,7 +12,6 @@ topSctoll.style.width = '0px'
 body.appendChild(topSctoll)
 
 window.onscroll = function (e) {
-  
   topSctoll.style.width = String(topSctollwidth()*100) + '%'
 }
 
